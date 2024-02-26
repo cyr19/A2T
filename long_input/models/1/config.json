@@ -1,0 +1,18 @@
+{
+    "train": "data/train.json",
+    "dev": "data/dev.json",
+    "test": "data/test.json",
+    "id": 1,
+    "model_type": "facebook/bart-large-xsum",
+    "max_input_size": 1024,
+    "max_target_size": 512,
+    "checkpoint_path": null,
+    "checkpoint_save_dir": "models",
+    "train_on_sections": "abstract",
+    "device": "cuda",
+    "epochs": 20,
+    "batch_size": 16,
+    "gradient_accumulation_steps": 1,
+    "learning_rate": 4e-05,
+    "seed": 42
+}
