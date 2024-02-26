@@ -23,7 +23,7 @@ often learn dataset artefacts of humor. Finally,
 ChatGPT, without any fine-tuning, performs on
 the level of our best fine-tuned system.
 
-The data for `abstract-to-title generation` is located in the [`eval_anno_data/`](eval_anno_data/) folder.
+The data for **abstract-to-title generation** is located in the [`eval_anno_data/`](eval_anno_data/) folder.
 * [`2638_humor_annotated_no_squibs.csv`](eval_anno_data/2638_humor_annotated_no_squibs.csv): human annotations regarding humor levels of titles.
 * [`32952_with_humor_label_no_squibs.csv`](eval_anno_data/32952_with_humor_label_no_squibs.csv): all abstract-title pairs with human/automatic annotations for humor.
   * [`train_no_squibs.csv`](eval_anno_data/train_no_squibs.csv): train set
@@ -34,7 +34,7 @@ The data for `abstract-to-title generation` is located in the [`eval_anno_data/`
 * [`eval_2_processed.csv`](eval_anno_data/eval_2_processed.csv): human evaluation for humorous title generation (BARTXsum vs. ChatGPT).
 
 
-The data for `abstract+x-to-title generation` is located in the [`long_input/`](long_input/) folder.
+The data for **abstract+x-to-title generation** is located in the [`long_input/`](long_input/) folder.
 * [`data/`](long_input/data): Titles paired with abstract, introduction and conclusion:
   * [`train.json`](long_input/data/train.json): train set
   * [`dev.json`](long_input/data/dev.json): dev set
