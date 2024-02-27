@@ -45,14 +45,11 @@ The data for **abstract+x-to-title generation** is located in the [`long_input/`
  
 If you use the data from this work, please cite us!
 ```bigquery
-@misc{chen2023transformers,
+@inproceedings{chen2023transformers,
       title={Transformers Go for the LOLs: Generating (Humourous) Titles from Scientific Abstracts End-to-End}, 
       author={Yanran Chen and Steffen Eger},
       year={2023},
-      eprint={2212.10522},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      note=
+      booktitle={Eval4NLP}
 }
 ```
 
