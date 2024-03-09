@@ -45,11 +45,25 @@ The data for **abstract+x-to-title generation** is located in the [`long_input/`
  
 If you use the data from this work, please cite us!
 ```bigquery
-@inproceedings{chen2023transformers,
-      title={Transformers Go for the LOLs: Generating (Humourous) Titles from Scientific Abstracts End-to-End}, 
-      author={Yanran Chen and Steffen Eger},
-      year={2023},
-      booktitle={Eval4NLP}
+@inproceedings{chen-eger-2023-transformers,
+    title = "Transformers Go for the {LOL}s: Generating (Humourous) Titles from Scientific Abstracts End-to-End",
+    author = "Chen, Yanran  and
+      Eger, Steffen",
+    editor = {Deutsch, Daniel  and
+      Dror, Rotem  and
+      Eger, Steffen  and
+      Gao, Yang  and
+      Leiter, Christoph  and
+      Opitz, Juri  and
+      R{\"u}ckl{\'e}, Andreas},
+    booktitle = "Proceedings of the 4th Workshop on Evaluation and Comparison of NLP Systems",
+    month = nov,
+    year = "2023",
+    address = "Bali, Indonesia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.eval4nlp-1.6",
+    pages = "62--84",
+    abstract = "We consider the end-to-end abstract-to-title generation problem, exploring seven recent transformer based models (including ChatGPT) fine-tuned on more than 30k abstract-title pairs from NLP and machine learning (ML) venues. As an extension, we also consider the harder problem of generating humorous paper titles. For the latter, we compile the first large-scale humor annotated dataset for scientific papers in the NLP/ML domains, comprising 2.6k titles. We evaluate all models using human and automatic metrics. Our human evaluation suggests that our best end-to-end system per-forms similarly to human authors (but arguably slightly worse). Generating funny titles is more difficult, however, and our automatic systems clearly underperform relative to humans and often learn dataset artefacts of humor. Finally, ChatGPT, without any fine-tuning, performs on the level of our best fine-tuned system.",
 }
 ```
 
